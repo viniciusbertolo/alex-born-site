@@ -1,0 +1,62 @@
+
+.parte13 section {
+  padding-top: 4rem;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+.parte13 h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.parte13 details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.parte13 details summary {
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 1px solid #e44105;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+.parte13 details summary:after {
+  content: "+";
+  color: #e44105;
+  position: absolute;
+  font-size: 1.75rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+.parte13 details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2rem;
+}
+.parte13 details summary {
+  outline: 0;
+}
+.parte13 details p {
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}

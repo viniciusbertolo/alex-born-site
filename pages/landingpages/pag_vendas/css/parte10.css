@@ -1,0 +1,58 @@
+
+.livros h2{
+    color: #e44105;
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+    font-size: 3em;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.textoLivrosComplemento p{
+  color: white;
+  text-align: center;
+  font: 300 12px/1.2 "Oswald", sans-serif;
+  font-size: 30px;
+  padding:1em;
+  padding-top:0px;
+
+
+
+}
+.mySwiper{
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 40vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+
+.mySwiper .swiper-slide{
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 200px;
+  background: #000;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px){
+  .textoLivrosComplemento p{
+    font-size: 20px;
+    
+  
+  
+  
+  }
+}

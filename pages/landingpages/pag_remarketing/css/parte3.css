@@ -1,0 +1,108 @@
+
+
+.parte3{
+    background-image: url(../img/evento2__escuro.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+.parte3 .textos{
+    color: white;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+}
+.parte3 .textos h2, .parte3 .textos h4{
+    color: #e44105;
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+}
+
+.parte3 .textos h2{
+    padding: 20px 0;
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+}
+
+.parte3 .textos h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.parte3 .textos p{
+    font-size: 16px;
+}
+
+.parte3 .imagem_parte3 img{
+    display: none;
+    visibility: hidden;
+    width: 100%;
+
+
+}
+
+.parte3 .botao{
+    background-color: #e44105;
+    border: none;   
+}
+.parte3 .botao:hover{
+    background-color: #e44105;
+    border: none;   
+}
+.parte3 .botao:active{
+    background-color: #e44105;
+    border: none;   
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte3{
+
+        background: #222222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .parte3 .textos{
+        width: 90%;
+        color: white;
+        padding: 40px 40px 0px 40px;
+        text-align: center;
+    }
+    .parte3 .textos h2, .parte3 .textos h4{
+        color: #e44105;
+
+    }
+
+    .parte3 .textos h2{
+        padding: 20px 0;
+        font-size: 3em;
+    }
+    
+    .parte3 .textos h4{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .parte3 .textos p{
+        font-size: 20px;
+    }
+
+    /* .parte3 .imagem_parte3{
+        width: 60%;
+    } */
+
+    .parte3 .imagem_parte3 img{
+        display: block;
+        visibility: visible;
+        width: 100%;
+    }
+    
+
+}

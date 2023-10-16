@@ -1,0 +1,107 @@
+
+
+.parte2{
+    background-image: url(../img/evento1_escuro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parte2 .textos{
+    color: white;
+    padding: 40px 40px 20px 40px;
+}
+.parte2 .textos h2, .parte2 .textos h4{
+    color: #e44105;
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+}
+
+.parte2 .textos h2{
+    padding: 20px 0;
+    font-size: 26px;
+}
+
+.parte2 .textos h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.parte2 .textos p{
+    font-size: 16px;
+}
+
+
+
+.parte2 .imagem_parte2 img{
+    display: none;
+    visibility: hidden;
+    width: 100%;
+
+
+}
+
+
+
+.parte2 .botao{
+    background-color: #e44105;
+    border: none;   
+}
+.parte2 .botao:hover{
+    background-color: #e44105;
+    border: none;   
+}
+.parte2 .botao:active{
+    background-color: #e44105;
+    border: none;   
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte2{
+        background: #222222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parte2 .textos{
+        width: 40%;
+        color: white;
+        padding: 40px 40px 0px 40px;
+    }
+    .parte2 .textos h2, .parte2 .textos h4{
+        color: #e44105;
+    }
+
+    .parte2 .textos h2{
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    
+    .parte2 .textos h4{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .parte2 .textos p{
+        font-size: 20px;
+    }
+
+    .parte2 .imagem_parte2{
+        width: 60%;
+    }
+  
+
+    .parte2 .imagem_parte2 img{
+        display: block;
+        visibility: visible;
+        width: 100%;
+    }
+    
+
+}

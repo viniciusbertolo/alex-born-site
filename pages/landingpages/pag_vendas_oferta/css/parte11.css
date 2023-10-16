@@ -1,0 +1,125 @@
+
+
+.parte11{
+    /* background-image: url(../img/alex2_escuro.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    padding-bottom: 0px;
+}
+
+
+.parte11 .textos{
+    color: white;
+    padding: 40px 40px 20px 40px;
+}
+.parte11 .textos h2, .parte11 .textos h4, .parte11 .textos h1{
+    color: #e44105;
+}
+
+.parte11 .textos h2{
+    padding: 20px 0;
+    font-size: 26px;
+}
+
+.parte11 .textos h1{
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.parte11 .textos h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.parte11 .textos p{
+    font-size: 16px;
+}
+
+
+
+.parte11 .imagem_parte11 img{
+    /* display: none;
+    visibility: hidden; */
+    position: relative;
+    width: 60%;
+    left: 20%;
+    
+
+
+}
+
+
+
+.parte11 .botao{
+    background-color: #e44105;
+    border: none;   
+}
+.parte11 .botao:hover{
+    background-color: #e44105;
+    border: none;   
+}
+.parte11 .botao:active{
+    background-color: #e44105;
+    border: none;   
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte11{
+        background: #222222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parte11 .textos{
+        width: 60%;
+        color: white;
+        padding: 40px 40px 0px 40px;
+    }
+    .parte11 .textos h2, .parte11 .textos h4, .parte11 .textos h1{
+        color: #e44105;
+    }
+
+    .parte11 .textos h2{
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    
+    .parte11 .textos h4{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .parte11 .textos p{
+        font-size: 20px;
+    }
+
+    .parte11 .imagem_parte11{
+        width: 40%;
+    }
+  
+
+    .parte11 .imagem_parte11 img{
+        /* display: block;
+        visibility: visible; */
+        width: 60%;
+
+
+        position: relative;
+    left: 20%;
+    padding-left: 20px;
+    }
+    
+
+}
+
+

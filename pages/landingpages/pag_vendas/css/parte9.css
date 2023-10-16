@@ -1,0 +1,176 @@
+
+
+.parte9{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* border: 1px solid #e44105; */
+    border-radius: 50px;
+    padding: 50px 0 0 0;
+    box-shadow: 0px 0px 65px 29px rgba(0,0,0,1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parte9 .textos{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    padding: 0 20px;
+}
+.parte9 .textos h2, .parte9 .textos h4{
+    color: #e44105;
+}
+
+.parte9 .textos h2{
+    padding: 20px 0;
+    font-size: 26px;
+}
+
+.parte9 .textos h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+
+
+.parte9 .textos .preco_antes{
+    margin-top: 50px;
+}
+
+/* .parte9 .textos .preco_antes h3{
+    padding-top: 50px;
+} */
+.parte9 .textos .preco_antes .line{
+    transform: rotate(-20deg);
+    margin: 0 auto;
+   position: relative;
+   width: 120px;
+   top: 18px;
+   height: 3px;
+   background-color: #e44105;
+   box-shadow: 0 5px 5px rgba(0,0,0,1);
+}
+
+
+
+.parte9 .textos h1{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 6em;
+    text-shadow: 0 10px 10px rgba(0,0,0,1);
+    color: #e44105;
+}
+
+.parte9 .textos h5{
+    padding-bottom: 50px;
+}
+
+
+
+.parte9 .textos p{
+    font-size: 16px;
+}
+
+
+.parte9 .imagem_parte9{
+    width: 60%;
+}
+
+
+
+.parte9 .imagem_parte9 img{
+    display: block;
+    visibility: visible;
+    width: 100%;
+    position: relative;
+    top: -120px;
+
+}
+
+
+
+.parte9 .botao{
+    background-color: #e44105;
+    border: none;   
+    padding: 20px 0;
+}
+.parte9 .botao:hover{
+    background-color: #e44105;
+    border: none;   
+}
+.parte9 .botao:active{
+    background-color: #e44105;
+    border: none;   
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte9{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        /* border: 1px solid #e44105; */
+        border-radius: 50px;
+        padding: 50px 0 0 0;
+        box-shadow: 0px 0px 65px 29px rgba(0,0,0,1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .parte9 .textos{
+        color: white;
+        
+    }
+    .parte9 .textos h2, .parte9 .textos h4{
+        color: #e44105;
+    }
+
+    .parte9 .textos h2{
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    
+    .parte9 .textos h4{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .parte9 .textos p{
+        font-size: 20px;
+    }
+
+
+
+    .parte9 .imagem_parte9{
+        width: 30%;
+    }
+  
+
+    .parte9 .imagem_parte9 img{
+        display: block;
+        visibility: visible;
+        width: 100%;
+        position: relative;
+        top: -120px;
+
+    }
+    
+
+}

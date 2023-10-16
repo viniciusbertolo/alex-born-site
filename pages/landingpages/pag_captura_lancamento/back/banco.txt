@@ -1,0 +1,5 @@
+create table captura (
+email varchar(200) not null,
+telefone varchar(200) not null,
+data TIMESTAMP DEFAULT CURRENT_TIMESTAMP,							
+primary key(email));

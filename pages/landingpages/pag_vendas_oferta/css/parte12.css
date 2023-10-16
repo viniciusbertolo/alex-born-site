@@ -1,0 +1,146 @@
+
+
+.parte12{
+    /* background-image: url(../img/alex2_escuro.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    padding-bottom: 50px;
+}
+
+
+.parte12 .textos{
+    color: white;
+    padding: 40px 40px 20px 40px;
+}
+.parte12 .textos h2, .parte12 .textos h4, .parte12 .textos h1{
+    color: #e44105;
+}
+
+.parte12 .textos h2{
+    padding: 20px 0;
+    font-size: 26px;
+}
+
+.parte12 .textos h1{
+    text-shadow: 0 5px 5px rgba(0,0,0,1);
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.parte12 .textos h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.parte12 .textos p{
+    font-size: 16px;
+}
+
+
+
+.parte12 .imagem_parte12{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   overflow: hidden;
+    
+
+
+}
+.parte12 .imagem_parte12 img{
+    /* display: none;
+    visibility: hidden; */
+    position: relative;
+    width: 20%;
+    left: 0%;
+    
+
+
+}
+
+
+
+.parte12 .botao{
+    background-color: #e44105;
+    border: none;   
+}
+.parte12 .botao:hover{
+    background-color: #e44105;
+    border: none;   
+}
+.parte12 .botao:active{
+    background-color: #e44105;
+    border: none;   
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte12{
+        background: #222222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .parte12 .textos{
+        width: 100%;
+        color: white;
+        padding: 40px 40px 0px 40px;
+    }
+    .parte12 .textos h2, .parte12 .textos h4, .parte12 .textos h1{
+        color: #e44105;
+    }
+
+    .parte12 .textos h2{
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    
+    .parte12 .textos h4{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .parte12 .textos p{
+        font-size: 20px;
+    }
+
+    .parte12 .imagem_parte12{
+        width: 100%;
+    }
+  
+
+    .parte12 .imagem_parte12 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        overflow: hidden;
+    }
+    .parte12 .imagem_parte12 img{
+        /* display: block;
+        visibility: visible; */
+        width: 15%;
+
+        position: relative;
+        left: 0%;
+        /* padding-left: 20px; */
+    }
+    
+
+}
+
+

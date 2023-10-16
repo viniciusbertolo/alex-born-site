@@ -1,0 +1,92 @@
+.box {
+    background-image: url(../img/fundoStory.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    font: 300 30px/1.2 "Oswald", sans-serif;
+    padding: 1rem;
+    width: 100%;
+    display: inline-block;
+    margin-bottom:-20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.box p,h2{
+    width: 100%;
+   
+    text-align:left;
+    padding: 1em;  
+
+
+}
+
+
+.box h2{
+    text-align:center;
+    padding: 0;
+    padding-bottom: 0;
+    font: 500 45px/1.2 "Oswald", sans-serif;
+}
+.imagem {
+    width: 30%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 25px;
+    margin-top:-3em;
+    
+}
+
+
+@media screen and (max-width: 800px){
+
+    .box {
+        font: 300 20px/1.2 "Oswald", sans-serif;
+        padding: 1em;
+        width: 100%;
+        margin-bottom:-20px;
+    }
+    
+    .titulo{
+        text-align: center;
+    }
+    
+    .box p,h2{
+        width: 100%;
+        
+        text-align:left;
+        padding: 1em;
+        
+    
+    
+    }
+    
+    
+    .box h2{
+        text-align:center;
+        padding-bottom: 0;
+        font: 500 30px/1.2 "Oswald", sans-serif;
+    }
+    .imagem {
+        width: 100%;
+        margin-top:1em;
+        margin-bottom:2em;
+       
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+

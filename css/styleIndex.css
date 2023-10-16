@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*OS FORMULARIOS NÃO PASSAM A BORDA*/
+    scroll-behavior:smooth;
+  }
+  
+  html, body{
+    background-color: #111;
+    height: 100%; /*AJUDA A DEIXAR O RODAPÉ COLADO NO FIM DA PAG*/
+  }
+
+  ::-webkit-scrollbar{
+    width: 2px;
+    background-color: black;
+  }
+  #progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 5px;
+    /* height: 100%; */
+    border-radius: 10px;
+    background: linear-gradient(to top,silver, midnightblue, darkblue, blue, darkblue, midnightblue);
+    z-index: 9;
+  }

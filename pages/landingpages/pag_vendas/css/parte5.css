@@ -1,0 +1,121 @@
+
+
+.parte5{
+    background-image: #222222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.parte5 .textos{
+    color: white;
+    padding: 40px 20px 20px 20px;
+}
+.parte5 .textos h2, .parte5 .textos h4{
+    color: #ff7200;
+}
+
+.parte5 .textos h2{
+    padding: 20px 0;
+    font-size: 26px;
+}
+
+.parte5 .textos h4{
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.parte5 .textos p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.parte5 .textos p span{
+    font-size: 22px;
+    color:#e44105;
+    text-align: center;
+}
+
+
+
+.parte5 .imagem_parte5 img{
+    display: none;
+    visibility: hidden;
+    width: 100%;
+
+
+}
+
+
+
+.parte5 .botao{
+    background-color: #e44105;
+    border: none;   
+}
+.parte5 .botao:hover{
+    background-color: #e44105;
+    border: none;   
+}
+.parte5 .botao:active{
+    background-color: #e44105;
+    border: none;   
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte5{
+        background: #222222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .parte5 .textos{
+        width: 90%;
+        color: white;
+        padding: 40px 40px 40px 0px;
+    }
+    .parte5 .textos h2, .parte5 .textos h4{
+        color: #ff7200;
+    }
+
+    .parte5 .textos h2{
+        padding: 20px 0;
+        font-size: 26px;
+    }
+    
+    .parte5 .textos h4{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .parte5 .textos p{
+        font-size: 22px;
+        text-align: center;
+    }
+    .parte5 .textos p span{
+        font-size: 30px;
+        color:#e44105;
+        text-align: center;
+    }
+
+    .parte5 .imagem_parte5{
+        width: 60%;
+    }
+  
+
+    .parte5 .imagem_parte5 img{
+        display: block;
+        visibility: visible;
+        width: 100%;
+    }
+    
+
+}

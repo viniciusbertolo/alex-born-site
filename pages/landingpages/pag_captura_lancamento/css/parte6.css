@@ -1,0 +1,58 @@
+
+
+.parte6{
+    background-image: #222222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 24px;
+}
+
+.parte6 .textos{
+    color: rgb(255,255,255,.35);
+    padding: 40px 40px 20px 40px;
+}
+
+
+.parte6 .textos p{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+    .parte6{
+        background: #222222;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 24px;
+    }
+    .parte6 .textos{
+        width: 60%;
+        color: rgb(255,255,255,.35);
+        padding: 40px 40px 0px 40px;
+    }
+    
+
+    .parte6 .textos p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    
+    
+
+}
